@@ -197,6 +197,7 @@ body {
 }
 
 .rss {
+    color: transparent;
     width: 121px;
     height: 45px;
     background-image: url("./assets/rss.svg");
