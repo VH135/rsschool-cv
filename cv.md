@@ -19,3 +19,30 @@ Problem solver, Moderator at the freeCodeCamp Forum.
 * CSS/SCSS
 * JavaScript (basic)
 * Git, GitHub
+
+## Code Example
+```
+function sum(a, b) {
+  return a + b;
+}
+
+let result = sum(1, 2);
+alert(result);
+```
+## Experience
+Currently is a RS School, freeCodeCamp student.
+
+## Education
+* **University**: Tyumen State 
+University, Publishing Industry Specialist
+in the specialty of
+“Editing and Publishing”
+* **Online Courses**:
+
+    * freeCodeCamp: Responsive Web Design Certification
+    * freeCodeCamp: JavaScript Algorithms and Data Structures (Beta) Certification
+    * Scrimba: JS Basics
+
+## Languages
+* **Russian**: Native
+* **English**: B1 (Intermediate)
