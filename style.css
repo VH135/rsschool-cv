@@ -5,3 +5,202 @@ html {
 * {
     box-sizing: border-box;
 }
+
+body {
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    background-color: rgb(182, 159, 159);
+}
+
+.main {
+    margin-bottom: auto;
+}
+
+.footer {
+    background-color: rgb(182, 159, 159);
+    padding: 20px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: grey;
+    font-size: 25px;
+    transition: .3s;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: calc(50% - 20px);
+    padding: 10px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgb(172, 118, 17);
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: rgb(172, 118, 17);
+}
+
+.section-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.section-item a {
+    text-decoration: none;
+    color: rgb(172, 118, 17);
+    transition: color 0.5s;
+}
+
+.section-item {
+    position: relative;
+    padding-left: 30px;
+}
+
+.section-item::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid rgb(172, 118, 17);
+    border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+.profile-section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 30px 35px;
+    border-bottom: 5px solid rgb(172, 118, 17);
+}
+
+.section-profile-photo {
+    width: 200px;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+.main-title {
+    position: relative;
+    padding: 0;
+    margin-bottom: 20px;
+    color: #4d2323;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    line-height: 50px;
+    word-spacing: 3px;
+}
+
+.main-title::after {
+    content: '';
+    width: 140px;
+    height: 2px;
+    background-color: rgb(172, 118, 17);
+    position: absolute;
+    bottom: -19px;
+    left: 50%;
+    margin-left: -70px;
+}
+
+.section-subtitle {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.section-profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pre {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    background-color: rgb(182, 159, 159);
+    padding: 25px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.github-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.github-link:hover {
+    color: orange;
+    transition: color 0.5s;
+}
+
+.rss {
+    color: transparent;
+    width: 121px;
+    height: 45px;
+    background-image: url("img/rss.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
